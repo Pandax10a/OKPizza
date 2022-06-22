@@ -1,1 +1,51 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 150px 1fr auto;
+}
+
+.header1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: black;
+}
+
+.header1 a {
+  display: grid;
+  justify-self: end;
+}
+
+.header1 div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+main {
+  background-image: url("pizzaflame.jpg");
+  width: 100%;
+}
+
+.moveleft {
+  width: 40%;
+}
+
+.logosize {
+  width: 70px;
+  height: 70px;
+}
+
+.bigger {
+  font-size: 1.7em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-stretch: extra-expanded;
+  color: whitesmoke;
+}/*# sourceMappingURL=style.css.map */
