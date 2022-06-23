@@ -13,7 +13,34 @@ main {
 }
 .moveleft {
     width: 40%;
+    
+    height: 50vh;
+    display: grid;
+    grid-template-rows: auto;
+    place-content: center;
+    transform: translateX(50px);
+    row-gap: 40px;
+    
 }
+.moveleft button {
+    background-color: orangered;
+    border-radius: 15px;
+}
+.moveleft p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.moveleft p:nth-child(2) {
+    border: 0;
+    border-bottom: 13px;
+    border-style: solid;
+    border-color: orangered;
+    padding: 30px;
+}
+
 
 footer {
     display: grid;
