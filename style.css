@@ -9,32 +9,25 @@ img {
 
 body {
   display: grid;
-  grid-template-rows: 150px 1fr auto;
+  grid-template-rows: auto 1fr auto;
 }
 
 .header1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: black;
+  height: 100px;
 }
 
 .header1 a {
   display: grid;
   justify-self: end;
+  align-self: center;
 }
 
 .header1 div {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-main {
-  background-image: url("pizzaflame.jpg");
-  width: 100%;
-}
-
-.moveleft {
-  width: 40%;
+  grid-template-columns: auto 1fr;
 }
 
 .logosize {
@@ -43,9 +36,23 @@ main {
 }
 
 .bigger {
-  font-size: 1.7em;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5em;
+  font-family: "Rock Salt", cursive;
   font-weight: 900;
   font-stretch: extra-expanded;
   color: whitesmoke;
+  align-self: center;
+  text-shadow: 2px 2px 20px red;
+}
+
+main {
+  background-image: url("pizzaflame.jpg");
+  background-size: cover;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.moveleft {
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */
