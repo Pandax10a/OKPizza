@@ -1,16 +1,30 @@
 @use "header";
 
+$body1: rgb(226, 222, 222);
+
 body {
+    display: grid;
+    grid-template-rows: auto;
  
-    background-color: gray;
+    background-color: $body1;
     
 }
 main {
     display: grid;
     grid-template-rows: auto;
-    place-content: center;
+    place-self: center;
+    
     
     width: 80vw;
+}
+
+main h1 {
+    display: grid;
+    place-self: center;
+    text-align: center;
+}
+main p {
+    text-align: center;
 }
 .header1 {
     width: 100%;
