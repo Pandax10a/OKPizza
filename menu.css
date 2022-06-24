@@ -1,1 +1,51 @@
-/*# sourceMappingURL=menu.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.header1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: black;
+  height: 100px;
+}
+
+.header1 a {
+  display: grid;
+  justify-self: end;
+  align-self: center;
+}
+
+.header1 div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.logosize {
+  width: 70px;
+  height: 70px;
+}
+
+.bigger {
+  font-size: 1.5em;
+  font-family: "Rock Salt", cursive;
+  font-weight: 900;
+  font-stretch: extra-expanded;
+  color: whitesmoke;
+  align-self: center;
+  text-shadow: 2px 2px 20px red;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto;
+  place-content: center;
+}
+
+main {
+  background-color: gray;
+}/*# sourceMappingURL=menu.css.map */

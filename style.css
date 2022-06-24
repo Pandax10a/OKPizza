@@ -7,11 +7,6 @@ img {
   width: 100%;
 }
 
-body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
 .header1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -43,6 +38,11 @@ body {
   color: whitesmoke;
   align-self: center;
   text-shadow: 2px 2px 20px red;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 main {

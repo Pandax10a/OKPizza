@@ -1,0 +1,12 @@
+@use "header";
+
+body {
+    display: grid;
+    grid-template-rows: auto;
+    place-content: center;
+    
+}
+main {
+    
+    background-color: gray;
+}

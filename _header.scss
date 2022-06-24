@@ -7,10 +7,7 @@ img {
     width: 100%;
 }
 
-body {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
+
 .header1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -35,6 +32,7 @@ body {
     width: 70px;
     height: 70px;
 }
+
 .bigger {
     font-size: 1.5em;
     font-family: 'Rock Salt', cursive;
