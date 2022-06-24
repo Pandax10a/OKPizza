@@ -1,12 +1,17 @@
 @use "header";
 
 body {
+ 
+    background-color: gray;
+    
+}
+main {
     display: grid;
     grid-template-rows: auto;
     place-content: center;
     
+    width: 80vw;
 }
-main {
-    
-    background-color: gray;
+.header1 {
+    width: 100%;
 }

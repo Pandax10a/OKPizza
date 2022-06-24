@@ -41,11 +41,16 @@ img {
 }
 
 body {
-  display: grid;
-  grid-template-rows: auto;
-  place-content: center;
+  background-color: gray;
 }
 
 main {
-  background-color: gray;
+  display: grid;
+  grid-template-rows: auto;
+  place-content: center;
+  width: 80vw;
+}
+
+.header1 {
+  width: 100%;
 }/*# sourceMappingURL=menu.css.map */
