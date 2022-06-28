@@ -43,13 +43,14 @@ img {
 body {
   display: grid;
   grid-template-rows: auto;
-  background-color: rgb(226, 222, 222);
+  background-color: rgb(226, 224, 222);
 }
 
 main {
   display: grid;
   grid-template-rows: auto;
   place-self: center;
+  padding-top: 50px;
   width: 80vw;
 }
 
@@ -57,12 +58,42 @@ main h1 {
   display: grid;
   place-self: center;
   text-align: center;
+  padding: 5px;
 }
 
 main p {
-  text-align: center;
+  padding: 10px 5px;
 }
 
 .header1 {
   width: 100%;
+}
+
+.menuphoto {
+  display: grid;
+  height: 200px;
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  place-self: center;
+  padding-top: 10px;
+}
+
+.divpage {
+  display: grid;
+  padding: 10px 5px;
+  background-color: rgb(242, 240, 240);
+}
+
+.divpage h3 {
+  padding-left: 10px;
+}
+
+.divpage p {
+  padding-left: 10px;
+}
+
+.pricebutton {
+  color: rgb(98, 97, 97);
+  border-radius: 5px;
 }/*# sourceMappingURL=menu.css.map */

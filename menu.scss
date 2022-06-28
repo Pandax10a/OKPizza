@@ -1,6 +1,8 @@
 @use "header";
 
-$body1: rgb(226, 222, 222);
+$body1: rgb(226, 224, 222);
+$div1: rgb(242, 240, 240);
+$buttoncolor:rgb(98, 97, 97);
 
 body {
     display: grid;
@@ -13,6 +15,7 @@ main {
     display: grid;
     grid-template-rows: auto;
     place-self: center;
+    padding-top: 50px;
     
     
     width: 80vw;
@@ -22,10 +25,41 @@ main h1 {
     display: grid;
     place-self: center;
     text-align: center;
+    padding: 5px;
 }
+
 main p {
-    text-align: center;
+    padding: 10px 5px;
 }
+
 .header1 {
     width: 100%;
+}
+
+.menuphoto {
+    display: grid;
+    height: 200px;
+    width: 90%;
+    object-fit: cover;
+    
+    place-self: center;
+    padding-top: 10px;
+
+}
+
+.divpage {
+    display: grid;
+    padding: 10px 5px;
+    background-color: $div1;
+}
+
+.divpage h3 {
+    padding-left:  10px;
+}
+.divpage p {
+    padding-left:  10px;
+}
+.pricebutton {
+color: $buttoncolor;
+border-radius: 5px;
 }
