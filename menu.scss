@@ -2,7 +2,7 @@
 
 $body1: rgb(226, 224, 222);
 $div1: rgb(242, 240, 240);
-$buttoncolor:rgb(98, 97, 97);
+$buttoncolor:rgb(62, 58, 58);
 
 body {
     display: grid;
@@ -44,6 +44,7 @@ main p {
     
     place-self: center;
     padding-top: 10px;
+    padding-bottom: 15px;
 
 }
 
@@ -60,6 +61,12 @@ main p {
     padding-left:  10px;
 }
 .pricebutton {
-color: $buttoncolor;
+background-color: $buttoncolor;
+color: $body1;
 border-radius: 5px;
+}
+
+.sectionpage {
+    display: grid;
+    row-gap: 15px;
 }
