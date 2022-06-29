@@ -105,6 +105,7 @@ main {
   grid-template-rows: auto;
   place-self: center;
   padding-top: 50px;
+  row-gap: 15px;
   width: 80vw;
 }
 
