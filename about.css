@@ -132,4 +132,9 @@ article p {
 .embedcenter {
   display: grid;
   place-items: center;
+}
+
+details {
+  width: 80%;
+  place-items: center;
 }/*# sourceMappingURL=about.css.map */
