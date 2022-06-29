@@ -127,4 +127,9 @@ article p {
   height: 20vh;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.embedcenter {
+  display: grid;
+  place-items: center;
 }/*# sourceMappingURL=about.css.map */

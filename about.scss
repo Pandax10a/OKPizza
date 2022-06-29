@@ -33,9 +33,16 @@ article p {
 }
 
 .embed1 {
+    
     width: 80%;
     height: 20vh;
     padding-top: 10px;
     padding-bottom: 10px;
     
+    
+}
+
+.embedcenter {
+    display: grid;
+    place-items: center;
 }
