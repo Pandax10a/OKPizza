@@ -102,8 +102,8 @@ body {
 main {
   background-image: url("pizzaflame.jpg");
   background-size: cover;
-  background-size: 220%;
   background-repeat: no-repeat;
+  background-position: bottom left;
   min-height: 60vh;
 }
 
