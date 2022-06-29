@@ -1,0 +1,41 @@
+@use "header";
+@use "footer";
+
+$mainbackground: rgb(174, 168, 133);
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+main {
+
+    width: 100%;
+    background-color: $mainbackground;
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+section, article {
+    width: 80%;
+}
+
+main h2 {
+    font-size: 2.5em;
+    
+    font-family: 'Rock Salt', cursive;
+    padding: 10px;
+}
+article p {
+    font-family: 'Rock Salt', cursive;
+}
+
+.embed1 {
+    width: 80%;
+    height: 20vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
