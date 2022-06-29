@@ -1,4 +1,5 @@
 @use "header";
+@use "footer";
 
 body {
     display: grid;
@@ -47,53 +48,4 @@ main {
 }
 
 
-footer {
-    display: grid;
-    grid-template-rows: auto auto;
-    place-content: center;
-    min-height: 20vh;
-    row-gap: 20px;
-    background-color: black;
-}
-
-.info {
-    order: 2;
-    display: grid;
-    place-items: center;
-}
-
-.copyright {
-    display: grid;
-    place-items: center;
-    order: 1;
-    
-    
-    
-}
-
-.copyright p {
-    font-size: .7em;
-}
-.makeitround {
-    width: 100px;
-    height: 50px;
-    border-radius: 20px;
-    
-
-}
-.whitetext {
-    color: whitesmoke;
-}
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-}
-a:link {
-    text-decoration: none;
-}
 

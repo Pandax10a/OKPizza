@@ -10,7 +10,7 @@ img {
 
 .header1 {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     background-color: black;
     height: 100px;
     
@@ -19,6 +19,7 @@ img {
     display: grid;
     justify-self: end;
     align-self: center;
+    padding-right: 20px;
 }
 .header1 div {
     display: grid;
@@ -32,6 +33,7 @@ img {
 .logosize {
     width: 70px;
     height: 70px;
+    padding-left: 10px;
 }
 
 .bigger {
