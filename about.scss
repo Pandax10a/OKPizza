@@ -22,6 +22,18 @@ section, article {
     width: 80%;
 }
 
+article {
+    padding-top: 10px;
+    border: 0;
+    border-top: 8px;
+    border-style: solid;
+}
+
+section {
+    border: 0;
+    padding-bottom: 10px;
+}
+
 main h2 {
     font-size: 2.5em;
     
@@ -36,7 +48,7 @@ article p {
     
     width: 80%;
     height: 20vh;
-    padding-top: 10px;
+    
     padding-bottom: 10px;
     
     
