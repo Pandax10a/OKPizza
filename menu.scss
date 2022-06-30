@@ -72,3 +72,17 @@ border-radius: 5px;
     display: grid;
     row-gap: 15px;
 }
+
+@media only screen and (min-width: 450px) {
+    main {
+        width: 90vw;
+
+    }
+    
+    .sectionpage {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+
+}

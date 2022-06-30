@@ -158,4 +158,17 @@ main p {
 .sectionpage {
   display: grid;
   row-gap: 15px;
+}
+
+@media only screen and (min-width: 450px) {
+  main {
+    width: 90vw;
+  }
+
+  .sectionpage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
 }/*# sourceMappingURL=menu.css.map */
