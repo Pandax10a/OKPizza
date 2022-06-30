@@ -135,4 +135,10 @@ main {
   border-style: solid;
   border-color: orangered;
   padding: 30px;
+}
+
+@media only screen and (min-width: 1050px) {
+  main {
+    background-position: center;
+  }
 }/*# sourceMappingURL=style.css.map */
