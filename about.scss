@@ -86,11 +86,11 @@ details {
         padding: 0;
         column-gap: 10px;
     }
-    .viddivpage>*:nth-child(1){
+    .viddivpage>*:nth-child(2){
         display: grid;
         justify-self: end;
     }
-    .viddivpage>*:nth-child(2){
+    .viddivpage>*:nth-child(3){
         display: grid;
         justify-self: start;
     }
@@ -103,6 +103,30 @@ details {
         grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
         
+    }
+   
+
+}
+@media only screen and (min-width: 1000px) {
+    .fordesktop {
+        display: grid;
+        text-align: right;
+    }
+    .viddivpage {
+        grid-template-columns: 1fr 2fr;
+        height: 40vh;
+        
+    }
+    .viddivpage>*:nth-child(2) {
+        display: none;
+        
+    }
+    .viddivpage>*:nth-child(3) {
+        justify-self: start;
+    }
+    .embed1 {
+        height: 35vh;
+        border-radius: 50px;
     }
 
 }
