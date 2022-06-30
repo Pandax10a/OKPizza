@@ -108,6 +108,11 @@ main {
   padding-bottom: 50px;
 }
 
+.aboutdiv {
+  display: grid;
+  place-items: center;
+}
+
 section, article {
   width: 80%;
 }
@@ -151,4 +156,44 @@ article p {
 details {
   width: 80%;
   place-items: center;
+}
+
+.viddivpage {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.fordesktop {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .viddivpage {
+    grid-template-columns: 1fr 1fr;
+    border: 0;
+    padding: 0;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+
+  .viddivpage > *:nth-child(1) {
+    display: grid;
+    justify-self: end;
+  }
+
+  .viddivpage > *:nth-child(2) {
+    display: grid;
+    justify-self: start;
+  }
+
+  .aboutdiv {
+    grid-template-rows: auto;
+  }
+
+  .aboutdiv section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
 }/*# sourceMappingURL=about.css.map */
