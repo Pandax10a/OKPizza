@@ -106,7 +106,7 @@ main {
   place-self: center;
   padding-top: 50px;
   row-gap: 15px;
-  width: 80vw;
+  width: 80%;
 }
 
 main h1 {
@@ -162,7 +162,7 @@ main p {
 
 @media only screen and (min-width: 450px) {
   main {
-    width: 90vw;
+    width: 90%;
   }
 
   .sectionpage {
@@ -174,8 +174,12 @@ main p {
 }
 @media only screen and (min-width: 850px) {
   .menuphoto {
-    height: 300px;
-    width: 300px;
-    border-radius: 150px;
+    max-height: 75%;
+    max-width: 75%;
+    border-radius: 37.5%;
+  }
+
+  main {
+    width: 90%;
   }
 }/*# sourceMappingURL=menu.css.map */

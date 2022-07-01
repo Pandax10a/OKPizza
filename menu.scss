@@ -20,7 +20,7 @@ main {
     row-gap: 15px;
     
     
-    width: 80vw;
+    width: 80%;
 }
 
 main h1 {
@@ -75,10 +75,8 @@ border-radius: 5px;
 
 @media only screen and (min-width: 450px) {
     main {
-        width: 90vw;
-
+        width: 90%;
     }
-    
     .sectionpage {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -88,8 +86,11 @@ border-radius: 5px;
 }
 @media only screen and (min-width: 850px) {
     .menuphoto {
-        height: 300px;
-        width: 300px;
-        border-radius: 150px;
+        max-height: 75%;
+        max-width: 75%;
+        border-radius: 37.5%;
+    }
+    main {
+        width: 90%;
     }
 }
