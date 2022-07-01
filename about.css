@@ -148,9 +148,15 @@ article p {
   padding-bottom: 10px;
 }
 
+.embed2 {
+  width: 80%;
+  padding: 10px;
+}
+
 .embedcenter {
   display: grid;
   place-items: center;
+  min-width: 80%;
 }
 
 details {
@@ -191,7 +197,7 @@ details {
     grid-template-rows: auto;
   }
 
-  .aboutdiv section {
+  section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
@@ -219,5 +225,27 @@ details {
   .embed1 {
     height: 35vh;
     border-radius: 50px;
+  }
+
+  section {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5vh;
+  }
+
+  section img {
+    border-radius: 5px;
+  }
+
+  #photo3 {
+    transform: translateX(95%) scale(1.1);
+  }
+
+  #photo1 {
+    transform: scale(1.1);
+  }
+
+  #photo2 {
+    transform: translateX(-50%) translateY(50%);
+    z-index: 1;
   }
 }/*# sourceMappingURL=about.css.map */
