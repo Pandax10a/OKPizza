@@ -63,9 +63,17 @@ main p {
     padding-left:  10px;
 }
 .pricebutton {
-background-color: $buttoncolor;
-color: $body1;
-border-radius: 5px;
+    display: grid;
+    background-color: $buttoncolor;
+    color: $body1;
+    border-radius: 5px;
+    height: 2.5vh;
+    align-self: end;
+    place-content: center;
+}
+.price {
+    display: grid;
+    align-self: end;
 }
 
 .sectionpage {
