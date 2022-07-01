@@ -171,4 +171,11 @@ main p {
     -moz-column-gap: 10px;
          column-gap: 10px;
   }
+}
+@media only screen and (min-width: 850px) {
+  .menuphoto {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+  }
 }/*# sourceMappingURL=menu.css.map */
