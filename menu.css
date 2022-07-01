@@ -54,7 +54,7 @@ footer {
 .info {
   order: 2;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   place-items: center;
 }
 
@@ -94,9 +94,24 @@ a:link {
   text-decoration: none;
 }
 
+.hide1 {
+  display: none;
+}
+
+@media only screen and (min-width: 450px) {
+  .info > *:nth-child(2) {
+    display: none;
+  }
+
+  .hide1 {
+    display: grid;
+    color: whitesmoke;
+  }
+}
 body {
   display: grid;
   grid-template-rows: auto;
+  min-height: 100vh;
   background-color: rgb(226, 224, 222);
 }
 

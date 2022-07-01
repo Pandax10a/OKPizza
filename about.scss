@@ -6,6 +6,7 @@ $mainbackground: rgb(174, 168, 133);
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
 main {

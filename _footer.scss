@@ -10,7 +10,7 @@ footer {
 .info {
     order: 2;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     place-items: center;
 }
 
@@ -47,4 +47,17 @@ a:hover {
 }
 a:link {
     text-decoration: none;
+}
+.hide1 {
+    display: none;
+}
+@media only screen and (min-width: 450px){
+
+    .info>*:nth-child(2){
+        display: none;
+    }
+    .hide1 {
+        display: grid;
+        color: whitesmoke;
+    }
 }
