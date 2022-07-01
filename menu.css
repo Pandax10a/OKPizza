@@ -193,7 +193,7 @@ main p {
   background-color: rgb(62, 58, 58);
   color: rgb(226, 224, 222);
   border-radius: 5px;
-  height: 2.5vh;
+  max-height: 3.2vh;
   align-self: end;
   place-content: center;
 }

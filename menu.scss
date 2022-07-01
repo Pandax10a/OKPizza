@@ -67,7 +67,8 @@ main p {
     background-color: $buttoncolor;
     color: $body1;
     border-radius: 5px;
-    height: 2.5vh;
+    
+    max-height: 3.2vh;
     align-self: end;
     place-content: center;
 }
