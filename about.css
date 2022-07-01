@@ -264,4 +264,12 @@ details {
     transform: translateX(-50%) translateY(50%);
     z-index: 1;
   }
+
+  #photo1:hover {
+    z-index: 2;
+  }
+
+  #photo3:hover {
+    z-index: 2;
+  }
 }/*# sourceMappingURL=about.css.map */
