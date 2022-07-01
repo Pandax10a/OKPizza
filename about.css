@@ -254,19 +254,31 @@ details {
 
   #photo3 {
     transform: translateX(95%) scale(1.1);
+    transition: transform 1.5s ease-in-out;
+  }
+
+  #photo3:hover {
+    transform: translateX(50%) translateY(-50%) scale(2.5);
   }
 
   #photo1 {
     transform: scale(1.1);
+    transition: transform 1.5s ease-in-out;
+  }
+
+  #photo1:hover {
+    z-index: 2;
+    transform: translateX(50%) translateY(50%) scale(2.5);
   }
 
   #photo2 {
     transform: translateX(-50%) translateY(50%);
     z-index: 1;
+    transition: transform 1.5s ease-in-out;
   }
 
-  #photo1:hover {
-    z-index: 2;
+  #photo2:hover {
+    transform: translateX(-50%) translateY(50%) scale(2.5);
   }
 
   #photo3:hover {
