@@ -281,7 +281,7 @@ details {
   }
 
   #photo3:hover {
-    transform: translateX(50%) translateY(-50%) scale(2.5);
+    transform: translateX(50%) translateY(-51.5%) scale(2.5);
   }
 
   #photo1 {
@@ -291,7 +291,7 @@ details {
 
   #photo1:hover {
     z-index: 2;
-    transform: translateX(50%) translateY(50%) scale(2.5);
+    transform: translateX(50%) translateY(55%) scale(2.5);
   }
 
   #photo2 {
@@ -301,7 +301,7 @@ details {
   }
 
   #photo2:hover {
-    transform: translateX(-50%) translateY(50%) scale(2.5);
+    transform: translateX(-50%) translateY(35%) scale(2.5);
   }
 
   #photo3:hover {
